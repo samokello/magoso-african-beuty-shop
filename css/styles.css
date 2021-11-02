@@ -72,7 +72,7 @@
 }
 
 .looks {
-  background-image: url("/images/look1.jpg");
+  background-image: url("/images/skincare.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,7 @@
 }
 
 .empty1 {
-  background-image: url("/images/Mizani_Banner_1950x.jpg");
+  background-image: url("/images/lotion1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,7 +112,7 @@
 }
 
 .empty5 {
-  background-image: url("/images/b-g1.jpg");
+  background-image: url("/images/oli2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +120,7 @@
 }
 
 .empty6 {
-  background-image: url("/images/eyes-beauty.jpg");
+  background-image: url("/images/Mizani_Banner_1950x.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,7 +128,7 @@
 }
 
 .empty7 {
-  background-image: url("/images/b-g2.jpg");
+  background-image: url("/images/skincare.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,4 +152,12 @@
   height: 40vh;
   width: 200px;
   margin: 3em;
+}
+
+.my-image img{
+  width:20%;
+  height: 400px;
+}
+.hottest-products{
+  display: flex;
 }
