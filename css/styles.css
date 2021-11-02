@@ -1,172 +1,155 @@
-*{
-    padding:0;
-margin: 0;
-box-sizing: border-box;
-
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.bg-img{
-    background-image: url("../images/back2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    
-} 
-
-.favoright{
-    background-image: url("../images/b-g1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 20vh;
+.bg-img {
+  background-image: url("../images/back2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
 }
 
-
-
-
-
-.hidden{
-    visibility: hidden;
-   position: absolute;
-  
-    display: flex;
-    gap: 1em;
-    padding: 1em;
-    background-color:rgba(255,255,255,.9);
-    border-radius: 5px;
-    box-shadow:  2px 2px 5px darkgrey;
-
-    
-
+.favoright {
+  background-image: url("../images/b-g1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
 }
 
-.hidden li{
-    list-style: none;
-    padding: 1.5em 0em;
-    font-size: 1rem;
-    color: darkmagenta;
-    cursor: pointer;
-    
+.hidden {
+  visibility: hidden;
+  position: absolute;
 
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px darkgrey;
 }
 
-.list li a{
-    color: red;
-    text-decoration: none;
-    padding-left: 1.5em;
+.hidden li {
+  list-style: none;
+  padding: 1.5em 0em;
+  font-size: 1rem;
+  color: darkmagenta;
+  cursor: pointer;
 }
 
-
-.list:hover .hidden{
-    visibility: visible;
-    z-index: 1;
+.list li a {
+  color: red;
+  text-decoration: none;
+  padding-left: 1.5em;
 }
 
-.flex-direction{
-display: flex;
-justify-content: end;
+.list:hover .hidden {
+  visibility: visible;
+  z-index: 1;
 }
 
-.lips-beauty img{
-    width: 100%;
-    height: 200px;
-  box-shadow: 2px 2px 2px  2px lightgray;
-
+.flex-direction {
+  display: flex;
+  justify-content: end;
 }
 
-
-.lips-beauty{
-    border: 2px solid red;
-    width: 18%;
-    
+.lips-beauty img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 2px 2px 2px lightgray;
 }
 
-
-.img-curds{
-    justify-content: space-between;
+.lips-beauty {
+  border: 2px solid red;
+  width: 18%;
 }
 
-.looks{
+.img-curds {
+  justify-content: space-between;
+}
+
+.looks {
   background-image: url("/images/look1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-height: 80vh;
-
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.empty1{
-    background-image: url("/images/Mizani_Banner_1950x.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+.empty1 {
+  background-image: url("/images/Mizani_Banner_1950x.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-
-.empty2{
-    background-image: url("/images/look1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+.empty2 {
+  background-image: url("/images/look1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.empty3{
-    background-image: url("/images/look2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+.empty3 {
+  background-image: url("/images/look2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.empty4{
-    background-image: url("/images/back2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+.empty4 {
+  background-image: url("/images/back2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.empty5{
-    background-image: url("/images/b-g1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+.empty5 {
+  background-image: url("/images/b-g1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.empty6{
-    background-image: url("/images/eyes-beauty.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+.empty6 {
+  background-image: url("/images/eyes-beauty.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.empty7{
-    background-image: url("/images/b-g2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-
+.empty7 {
+  background-image: url("/images/b-g2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.looks-curds{
-    width: 50%;
-    border: 2px solid purple;
-    flex-wrap: nowrap;
-    justify-content: end;
+.looks-curds {
+  width: 50%;
+
+  flex-wrap: nowrap;
 }
 
+.look-curd1 img {
+  width: 100%;
+  height: 200px;
+}
 
-
-.look-curd1 img{
-   
-    width: 100%;
-    height: 300px;
-
+.look-curd1 {
+  border: 2px solid red;
+  background-color: #fff;
+  height: 40vh;
+  width: 200px;
+  margin: 3em;
 }
