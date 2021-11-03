@@ -36,12 +36,12 @@
   list-style: none;
   padding: 1.5em 0em;
   font-size: 1rem;
-  color: darkmagenta;
+  color: blue;
   cursor: pointer;
 }
 
 .list li a {
-  color: red;
+  color:rgb(115, 13, 141);
   text-decoration: none;
   padding-left: 1.5em;
 }
@@ -179,6 +179,7 @@ footer{
   background-color: red;
   padding: 2em;
   display: flex;
+  justify-content: end;
  
 
 }
@@ -189,3 +190,14 @@ footer{
   justify-content: center;
  
 }
+
+.dark{
+  color: #fff;
+  background-color:black;
+}
+
+.shopping{
+  margin: 0em 2em;
+}
+
+
