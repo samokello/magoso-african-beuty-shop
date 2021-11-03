@@ -64,7 +64,7 @@
 .lips-beauty img {
   width: 100%;
   height: 200px;
-  box-shadow: 2px 2px 2px 2px lightgray;
+  
 }
 
 .beauty-100 img{
@@ -77,25 +77,41 @@
   
   background-color:#fff;
   height: 20vh;
-color: blueviolet;
+color: #621D67;
 justify-content: center;
 }
 
 
 .beauty-100{
-  border-radius: 10% 0 0 darkgray;
+  border-radius:10px;
   margin: 3em 0em;
-  width: 100%;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .lips-beauty {
-  border: 2px solid red;
+  border: 2px solid plum;
+  border-radius: 10px;
   width: 18%;
+
+}
+
+.lips-beauty p{
+  text-align: center;
+  color:#621D67;
+}
+
+.lips-beauty img{
+  border-radius: 5px;
 }
 
 .img-curds {
   justify-content: space-between;
+  box-shadow: 2px 2px 2px  2px purple;
+ border-radius: 10px;
+  margin: 3em 0em;
+  background-color: #fff;
+  padding: 2em;
 }
 
 .looks {
@@ -235,7 +251,7 @@ footer{
 }
 
 .dark li{
-  color:blue;
+  color:#621D67;
   font-size:1rem;
 }
 
@@ -243,4 +259,18 @@ footer{
   margin: 0em 2em;
 }
 
+
+.beauty p,h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.beauty-btn{
+  width: 100%;
+  border-radius: 5px;
+  padding: 1.5em;
+  border: none;
+  background-color:#621D67 ;
+  color: #fff;
+}
 
