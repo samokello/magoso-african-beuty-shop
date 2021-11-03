@@ -155,9 +155,37 @@
 }
 
 .my-image img{
-  width:20%;
+  width:50%;
   height: 400px;
 }
 .hottest-products{
   display: flex;
+}
+
+.black-november1{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  background-image: url("/images/footer3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.icons{
+  background-color: red;
+  padding: 2em;
+  display: flex;
+ 
+
+}
+
+.footer-icons{
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+ 
 }
