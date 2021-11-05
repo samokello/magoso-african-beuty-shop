@@ -384,6 +384,7 @@ list-style-type: none;
   color: #fff;
   margin-bottom: 1em;
   font-size: 1rem;
+  padding-left:0.1em;
 }
 
 
@@ -395,6 +396,8 @@ list-style-type: none;
   font-size: 3rem;
   margin-top: 10%;
   border-top: 2px solid #fff;
+  cursor: pointer;
+  color: #fff;
   
  
 }
@@ -451,10 +454,10 @@ color: #fff;
   margin: 3em 0em;
 }
 
-.fs-4 i{
-  font-size: 4rem;
+.fs-4 {
+  
   display: flex;
- margin:0.5em;
+
 }
 
 .btn{
@@ -462,6 +465,14 @@ color: #fff;
   background-color: transparent;
   border-radius: 5px;
   color: #fff;
+}
+
+.visa i{
+  margin: 2em;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+
 }
 
 
