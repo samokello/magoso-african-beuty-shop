@@ -139,7 +139,7 @@ justify-content: center;
 }
 
 .looks {
-  background-image: url("/images/skincare.jpg");
+  background-image: url("../images/skincare.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +155,7 @@ text-align: center;
 
 
 .empty1 {
-  background-image: url("/images/lotion1.jpg");
+  background-image: url("../images/lotion1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,7 +163,7 @@ text-align: center;
 }
 
 .empty2 {
-  background-image: url("/images/free.jpg");
+  background-image: url("../images/free.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +171,7 @@ text-align: center;
 }
 
 .empty3 {
-  background-image: url("/images/lagos.jpg");
+  background-image: url("../images/lagos.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -179,7 +179,7 @@ text-align: center;
 }
 
 .empty4 {
-  background-image: url("/images/jiwel1.jpg");
+  background-image: url("../images/jiwel1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +187,7 @@ text-align: center;
 }
 
 .empty5 {
-  background-image: url("/images/oli2.jpg");
+  background-image: url("../images/oli2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +195,7 @@ text-align: center;
 }
 
 .empty6 {
-  background-image: url("/images/footer3.jpg");
+  background-image: url("../images/footer3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +203,7 @@ text-align: center;
 }
 
 .empty7 {
-  background-image: url("/images/pink.jpg");
+  background-image: url("../images/pink.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,7 +212,7 @@ text-align: center;
 
 
 .empty8{
-  background-image: url("/images/nails.jpg");
+  background-image: url("../images/nails.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,7 +220,7 @@ text-align: center;
 }
 
 .empty9 {
-  background-image: url("/images/brazilian.jpg");
+  background-image: url("../images/brazilian.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,7 +228,7 @@ text-align: center;
 }
 
 .empty10{
-  background-image: url("/images/face\ beauty.jpg");
+  background-image: url("../images/ beauty.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,7 +333,7 @@ margin: 3em;
 }
 
 footer{
-  background-image: url("/images/pink.jpg");
+  background-image: url("../images/pink.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   margin: 2em 0em;
