@@ -5,8 +5,9 @@
 }
 
 .nav li a{
-  color:purple;
-  /* padding: 2em 0em; */
+ color: red;
+  font-size: 1rem;
+ 
 }
 
 .bg-img {
@@ -36,6 +37,22 @@
   border-radius: 5px;
   box-shadow: 2px 2px 5px darkgrey;
 }
+
+.look-curd1 p{
+  padding-left: 2em;
+  color: #621D67;
+  font-size: 1.1rem;
+}
+
+.look-curd1 :hover{
+  transform: scale(1);
+
+}
+
+.look-curd1 {
+  transition: 2s;
+}
+
 
 .hidden li {
   list-style: none;
@@ -76,9 +93,14 @@
 .beauty-content{
   
   background-color:#fff;
-  height: 20vh;
+  height: 40vh;
 color: #621D67;
 justify-content: center;
+}
+
+.beauty h3{
+  font-size: 2rem;
+  margin: 2em;
 }
 
 
@@ -87,12 +109,14 @@ justify-content: center;
   margin: 3em 0em;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 .lips-beauty {
-  border: 2px solid plum;
+  border: 2px solid #621D67;
   border-radius: 10px;
   width: 18%;
+  
 
 }
 
@@ -110,7 +134,7 @@ justify-content: center;
   box-shadow: 2px 2px 2px  2px purple;
  border-radius: 10px;
   margin: 3em 0em;
-  background-color: #fff;
+  background-color:#fff;
   padding: 2em;
 }
 
@@ -122,6 +146,14 @@ justify-content: center;
   height: 100vh;
 }
 
+.carousel-inner p{
+font-size: 4rem;
+color: #fff;
+padding: 2em;
+text-align: center;
+}
+
+
 .empty1 {
   background-image: url("/images/lotion1.jpg");
   background-position: center center;
@@ -131,7 +163,7 @@ justify-content: center;
 }
 
 .empty2 {
-  background-image: url("/images/look1.jpg");
+  background-image: url("/images/free.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,7 +171,7 @@ justify-content: center;
 }
 
 .empty3 {
-  background-image: url("/images/look2.jpg");
+  background-image: url("/images/lagos.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,7 +179,7 @@ justify-content: center;
 }
 
 .empty4 {
-  background-image: url("/images/back2.jpg");
+  background-image: url("/images/jiwel1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,7 +195,7 @@ justify-content: center;
 }
 
 .empty6 {
-  background-image: url("/images/Mizani_Banner_1950x.jpg");
+  background-image: url("/images/footer3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,12 +203,41 @@ justify-content: center;
 }
 
 .empty7 {
-  background-image: url("/images/skincare.jpg");
+  background-image: url("/images/pink.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
 }
+
+
+.empty8{
+  background-image: url("/images/nails.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.empty9 {
+  background-image: url("/images/brazilian.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.empty10{
+  background-image: url("/images/face\ beauty.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+
+
+
 
 .looks-curds {
   width: 50%;
@@ -190,32 +251,95 @@ justify-content: center;
 }
 
 .look-curd1 {
-  border: 2px solid red;
+  box-shadow: 2px 2px 2px  2px purple;
   background-color: #fff;
-  height: 40vh;
   width: 200px;
   margin: 3em;
 }
 
+.look-curd1{
+  border-radius: 5px;
+  
+  
+  display: block;
+  
+  background-color: 621D67;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.look-curd1:hover {
+  background-color: #FFCCCC;
+ cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.my-image{
+
+width: 100%;
+border-radius: 5px;
+border: 2px solid purple;
+
+}
+
+
+
+
+.my-image p{
+  text-align:center;
+}
+
+.hot2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+
+
 .my-image img{
-  width:50%;
+width: 90%;
   height: 400px;
+  margin-left: 2em;
+  border-radius: 5px;
+
+  
 }
 .hottest-products{
   display: flex;
 }
 
+.black-november2{
+  margin-top: 2em;
+  border-radius: 10px;
+  border: 2px solid #621D67;
+ 
+}
+
+.black-november2 h2{
+  text-align: center;
+  margin: 2em;
+}
+
 .black-november1{
   display: flex;
   justify-content: space-between;
+  border: 2px solid purple;
+  background-color: #621D67;
+}
+
+.black{
+  display: flex;
+margin: 3em;
 }
 
 footer{
-  background-image: url("/images/footer3.jpg");
+  background-image: url("/images/pink.jpg");
   background-position: center center;
   background-repeat: no-repeat;
+  margin: 2em 0em;
+  border-radius: 10px;
   background-size: cover;
-  height: 60vh;
+  /* height: 60vh; */
 }
 
 .icons{
@@ -224,16 +348,45 @@ footer{
   display: flex;
   justify-content: end;
   font-size: 2rem;
+  color: #fff;
   
  
 
 }
 
+.looks{
+  position: relative;
+}
+
 
 .footer-li{
+  margin: 3em;
+}
+
+.medal ul li{
+list-style-type: none;
+
+}
+
+.medal a{
+  font-size: 2rem;
+}
+
+.footer-li ul li a{
   margin: 2em;
   font-size: 1rem;
+  list-style: none;
+  
+ 
 }
+
+.footer-li ul li a{
+  color: #fff;
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+
+
 
 .footer-icons{
   display: flex;
@@ -241,6 +394,8 @@ footer{
   justify-content: center;
   font-size: 3rem;
   margin-top: 10%;
+  border-top: 2px solid #fff;
+  
  
 }
 
@@ -272,5 +427,49 @@ footer{
   border: none;
   background-color:#621D67 ;
   color: #fff;
+}
+
+.text-align{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 10%;
+  font-size: 3rem;
+}
+
+.text-align p{
+color: #fff;
+}
+
+.see-more{
+  border: none;
+  border-radius: 5px;
+  padding:0.5em;
+}
+
+
+.hot-products{
+  margin: 3em 0em;
+}
+
+.fs-4 i{
+  font-size: 4rem;
+  display: flex;
+ margin:0.5em;
+}
+
+.btn{
+  padding: .5em;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+.input{
+  padding: .5em;
+ background-color: transparent;
+ color: #fff;
+  border-radius: 5px;
+  border: none;
 }
 
